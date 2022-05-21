@@ -1,0 +1,22 @@
+{
+  "name": "youtube_tracker",
+  "version": "1.0.0",
+  "description": "Web app for tracking youtube channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzenanibric/youtube_tracker.git"
+  },
+  "author": "Dzenan Ibric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dzenanibric/youtube_tracker/issues"
+  },
+  "homepage": "https://github.com/dzenanibric/youtube_tracker#readme",
+  "dependencies": {
+    "get-youtube-channel-id": "^0.0.4"
+  }
+}

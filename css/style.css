@@ -1,0 +1,289 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2D283E;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  background: #802BB1;
+  color: #D1D7E0;
+}
+
+body header .theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .theme__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2D283E;
+  height: 1.8rem;
+  width: 3.5rem;
+  margin-left: 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+body header .theme__button--circle {
+  height: 90%;
+  width: 45%;
+  background: #D1D7E0;
+  margin-left: 0.1rem;
+  border-radius: 50%;
+}
+
+body .viewOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  height: 70%;
+  margin-top: 10%;
+  background: #2D283E;
+}
+
+body .viewOne h1 {
+  margin-bottom: 1rem;
+  color: #802BB1;
+}
+
+body .viewOne img {
+  width: 50%;
+}
+
+body .viewOne input {
+  margin-top: 1rem;
+  width: 55%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+body .viewOne input::-webkit-input-placeholder {
+  color: #4C495D;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body .viewOne input:-ms-input-placeholder {
+  color: #4C495D;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body .viewOne input::-ms-input-placeholder {
+  color: #4C495D;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body .viewOne input::placeholder {
+  color: #4C495D;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body .viewOne p {
+  color: red;
+  margin-top: 1rem;
+}
+
+body .viewTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background: #802BB1;
+  border-radius: 5rem;
+  height: 30rem;
+  width: 50rem;
+  margin-top: 10%;
+  display: none;
+}
+
+body .viewTwo button {
+  position: absolute;
+  top: 2rem;
+  left: 3rem;
+  background: #4C495D;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  color: #D1D7E0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #4C495D;
+}
+
+body .viewTwo button:hover {
+  -webkit-box-shadow: 0 0 8px #4C495D;
+          box-shadow: 0 0 8px #4C495D;
+}
+
+body .viewTwo p {
+  color: #D1D7E0;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  body header .title {
+    font-size: 10px;
+  }
+  body header .theme h3 {
+    display: none;
+  }
+  body .viewOne {
+    margin-top: 10rem;
+    width: 100%;
+  }
+  body .viewOne h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  body .viewOne img {
+    width: 80%;
+  }
+  body .viewOne input {
+    width: 80%;
+  }
+  body .viewOne input::-webkit-input-placeholder {
+    font-size: 10px;
+  }
+  body .viewOne input:-ms-input-placeholder {
+    font-size: 10px;
+  }
+  body .viewOne input::-ms-input-placeholder {
+    font-size: 10px;
+  }
+  body .viewOne input::placeholder {
+    font-size: 10px;
+  }
+  body .viewTwo {
+    margin-top: 10rem;
+    width: 95%;
+    height: 20rem;
+  }
+  body .viewTwo p {
+    font-size: 15px;
+  }
+  body .viewTwo button {
+    padding: 0.2rem;
+    font-size: 15px;
+  }
+}
+
+.light {
+  background: #D1D7E0;
+}
+
+.light .viewOne {
+  background: #D1D7E0;
+}
+
+.light .viewOne input {
+  background: #2D283E;
+  color: #D1D7E0;
+}
+
+.light .viewOne input::-webkit-input-placeholder {
+  color: #D1D7E0;
+}
+
+.light .viewOne input:-ms-input-placeholder {
+  color: #D1D7E0;
+}
+
+.light .viewOne input::-ms-input-placeholder {
+  color: #D1D7E0;
+}
+
+.light .viewOne input::placeholder {
+  color: #D1D7E0;
+}
+/*# sourceMappingURL=style.css.map */
